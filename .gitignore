@@ -1,3 +1,4 @@
 node_modules/
-
-.gitignore/
+babel.config.js
+jest.config.ts
+package-lock.json
