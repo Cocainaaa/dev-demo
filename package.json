@@ -1,0 +1,43 @@
+{
+  "name": "tp_produit_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.5",
+    "nodemailer": "^6.9.3",
+    "reflect-metadata": "^0.1.13",
+    "save-dev": "^0.0.1-security",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/jest": "^29.5.2",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/nodemailer": "^6.4.8",
+    "@types/supertest": "^2.0.12",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
