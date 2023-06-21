@@ -33,9 +33,7 @@ router.put('/produits/:id', setPrix);
 // Route pour supprimer un produit
 router.delete('/produits/:id', deleteProduit);
 
+
 export default router;
-
-
-
 
 
