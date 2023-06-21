@@ -4,7 +4,6 @@ import { Container } from 'react-bootstrap';
 import { ProductPage } from './pages/ProductPage';
 import { NotFound } from './components/NotFound';
 import {Header} from './components/Header';
-import { VideoChat } from './components/VideoChat';
 
 const App: React.FC = () => {
   return (
